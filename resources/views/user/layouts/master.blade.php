@@ -31,7 +31,7 @@
         ================================================== -->
         <header>
 
-            @includeif('user.layouts.topbar')
+            {{-- @includeif('user.layouts.topbar') --}}
 
             @includeif('user.layouts.navbar')
 
@@ -39,7 +39,9 @@
         </header>
 
         {{-- content section --}}
-        @yield('content')
+        <main>
+            @yield('content')
+        </main>
         {{-- content section --}}
 
 

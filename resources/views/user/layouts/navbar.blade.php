@@ -1,468 +1,786 @@
-<div class="navbar-default">
+<!-- Header START -->
+<header class="navbar-light navbar-sticky header-static">
+    <!-- Nav START -->
+    <nav class="navbar navbar-expand-xl">
+        <div class="container-fluid px-3 px-xl-5">
+            <!-- Logo START -->
+            <a class="navbar-brand" href="index.html">
+                <img class="light-mode-item navbar-brand-item" src="assets/images/logo.svg" alt="logo">
+                <img class="dark-mode-item navbar-brand-item" src="assets/images/logo-light.svg" alt="logo">
+            </a>
+            <!-- Logo END -->
 
+            <!-- Responsive navbar toggler -->
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-animation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
 
+            <!-- Main navbar START -->
+            <div class="navbar-collapse w-100 collapse" id="navbarCollapse">
 
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-12">
-                <div class="menu_area alt-font">
-                    <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <!-- Nav category menu START -->
+                <ul class="navbar-nav navbar-nav-scroll me-auto">
+                    <!-- Nav item 1 Demos -->
+                    <li class="nav-item dropdown dropdown-menu-shadow-stacked">
+                        <a class="nav-link bg-primary bg-opacity-10 rounded-3 text-primary px-3 py-3 py-xl-0"
+                            href="#" id="categoryMenu" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false"><i class="bi bi-ui-radios-grid me-2"></i><span>Category</span></a>
+                        <ul class="dropdown-menu" aria-labelledby="categoryMenu">
 
-                        <div class="navbar-header navbar-header-custom">
-                            <!-- logo -->
-                            <a href="index-2.html" class="navbar-brand logodefault"><img id="logo"
-                                    src="img/logos/logo.png" alt="logo"></a>
-                            <!-- end logo -->
-                        </div>
-
-                        <div class="navbar-toggler"></div>
-
-                        <!-- menu area -->
-                        <ul class="navbar-nav ms-auto" id="nav" style="display: none;">
-                            <li><a href="#!">Home</a>
-                                <ul>
-                                    <li><a href="home-default.html">Home Default</a></li>
-                                    <li><a href="#!">Corporate Layouts</a>
-                                        <ul>
-                                            <li><a href="home-corporate-1.html">Corporate - 1</a></li>
-                                            <li><a href="home-corporate-2.html">Corporate - 2</a></li>
-                                            <li><a href="home-corporate-3.html">Corporate - 3</a></li>
-                                            <li><a href="home-corporate-4.html">Corporate - 4</a></li>
-                                            <li><a href="home-corporate-5.html">Corporate - 5</a></li>
+                            <!-- Dropdown submenu -->
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#">Development</a>
+                                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                                    <!-- dropdown submenu open right -->
+                                    <li class="dropdown-submenu dropend">
+                                        <a class="dropdown-item dropdown-toggle" href="#">Web Development</a>
+                                        <ul class="dropdown-menu" data-bs-popper="none">
+                                            <li> <a class="dropdown-item" href="#">CSS</a> </li>
+                                            <li> <a class="dropdown-item" href="#">JavaScript</a> </li>
+                                            <li> <a class="dropdown-item" href="#">Angular</a> </li>
+                                            <li> <a class="dropdown-item" href="#">PHP</a> </li>
+                                            <li> <a class="dropdown-item" href="#">HTML</a> </li>
+                                            <li> <a class="dropdown-item" href="#">React</a> </li>
                                         </ul>
                                     </li>
-                                    <li><a href="#!">Multipage Demos</a>
-                                        <ul>
-                                            <li><a href="demos/startup-agency/index.html" target="_blank">Startup
-                                                    Agency</a></li>
-                                            <li><a href="demos/university/index.html" target="_blank">University &
-                                                    College</a></li>
-                                            <li><a href="demos/charity/index.html" target="_blank">Charity
-                                                    - NonProfit</a></li>
-                                            <li><a href="demos/pet/index.html" target="_blank">Pet -
-                                                    Adoption & Care</a></li>
-                                            <li><a href="demos/kids-school/index.html" target="_blank">Kids
-                                                    Education</a></li>
-                                            <li><a href="demos/cargo/index.html" target="_blank">Transport
-                                                    & Logistics</a></li>
-                                            <li><a href="demos/car-repairing/index.html" target="_blank">Car
-                                                    - Auto Services</a></li>
-                                            <li><a href="demos/construction/index.html" target="_blank">Building
-                                                    Construction</a></li>
-                                            <li><a href="demos/law/index.html" target="_blank">Law Firm
-                                                    and Lawyer</a></li>
-                                            <li><a href="demos/movers/index.html" target="_blank">Packers
-                                                    and Movers</a></li>
-                                            <li><a href="demos/yoga/index.html" target="_blank">Health and
-                                                    Yoga</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#!">Shop Layouts</a>
-                                        <ul>
-                                            <li><a href="home-shop-1.html">Shop - 1</a></li>
-                                            <li><a href="home-shop-2.html">Shop - 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#!">One Page</a>
-                                        <ul>
-                                            <li><a href="one-page/app-landing/index.html" target="_blank">App
-                                                    Landing</a></li>
-                                            <li><a href="one-page/portfolio/index.html" target="_blank">One
-                                                    Page Portfolio</a></li>
-                                            <li><a href="one-page/restaurant/index.html" target="_blank">Restaurant and
-                                                    Cafe</a></li>
-                                            <li><a href="one-page/agency/index.html" target="_blank">Onepage
-                                                    Agency</a></li>
-                                            <li><a href="one-page/creative-agency/index.html" target="_blank">Creative
-                                                    Agency</a></li>
-                                            <li><a href="one-page/event/index.html" target="_blank">Event
-                                                    and Conference</a></li>
-                                            <li><a href="one-page/gym/index.html" target="_blank">Fitness
-                                                    and GYM</a></li>
-                                            <li><a href="one-page/product/index.html" target="_blank">Product
-                                                    Landing</a></li>
-                                            <li><a href="one-page/saas-landing/index.html" target="_blank">App and SaaS
-                                                    Landing</a></li>
-                                            <li><a href="one-page/spa/index.html" target="_blank">Spa &
-                                                    Beauty</a></li>
-                                            <li><a href="one-page/wedding/index.html" target="_blank">Wedding
-                                                    Planner</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="home-creative-agency.html">Creative Agency</a></li>
-                                    <li><a href="home-construction.html">Construction</a></li>
-                                    <li><a href="home-interior.html">Interior Design</a></li>
-                                    <li><a href="home-medical.html">Health &amp; Medical</a></li>
-                                    <li><a href="home-tour.html">Tour &amp; Travels</a></li>
+                                    <li> <a class="dropdown-item" href="#">Data Science</a> </li>
+                                    <li> <a class="dropdown-item" href="#">Mobile Development</a> </li>
+                                    <li> <a class="dropdown-item" href="#">Programing Language</a> </li>
+                                    <li> <a class="dropdown-item" href="#">Software Testing</a> </li>
+                                    <li> <a class="dropdown-item" href="#">Software Engineering</a> </li>
+                                    <li> <a class="dropdown-item" href="#">Software Development Tools</a> </li>
                                 </ul>
                             </li>
-                            <li><a href="#!">Pages</a>
-                                <ul>
-                                    <li><a href="#!">About Us</a>
-                                        <ul>
-                                            <li><a href="about.html">About Us 01</a></li>
-                                            <li><a href="about-2.html">About Us 02</a></li>
-                                            <li><a href="about-3.html">About Us 03</a></li>
-                                            <li><a href="about-me.html">About Me</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#!">Our Team</a>
-                                        <ul>
-                                            <li><a href="team.html">Our Team 01</a></li>
-                                            <li><a href="team-2.html">Our Team 02</a></li>
-                                            <li><a href="team-3.html">Our Team 03</a></li>
-                                            <li><a href="team-4.html">Our Team 04</a></li>
-                                            <li><a href="team-5.html">Our Team 05</a></li>
-                                            <li><a href="team-6.html">Our Team 06</a></li>
-                                            <li><a href="team-single.html">Team Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#!">Services</a>
-                                        <ul>
-                                            <li><a href="services.html">Services 01</a></li>
-                                            <li><a href="services-2.html">Services 02</a></li>
-                                            <li><a href="services-3.html">Services 03</a></li>
-                                            <li><a href="services-4.html">Services 04</a></li>
-                                            <li><a href="cases.html">Cases</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#!">Service Detail</a>
-                                        <ul>
-                                            <li><a href="financial-planning.html">Financial Planning</a>
-                                            </li>
-                                            <li><a href="personal-insurance.html">Personal Insurance</a>
-                                            </li>
-                                            <li><a href="business-analysis.html">Business Analysis</a></li>
-                                            <li><a href="market-research.html">Market Research</a></li>
-                                            <li><a href="online-consulting.html">Online Consulting</a></li>
-                                            <li><a href="investment-planning.html">Investment Planning</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#!">Contact Us</a>
-                                        <ul>
-                                            <li><a href="contact.html">Contact Us 01</a></li>
-                                            <li><a href="contact-2.html">Contact Us 02</a></li>
-                                            <li><a href="contact-3.html">Contact Us 03</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#!">FAQ</a>
-                                        <ul>
-                                            <li><a href="faq.html">FAQ 01</a></li>
-                                            <li><a href="faq-2.html">FAQ 02</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#!">Additional Pages</a>
-                                        <ul>
-                                            <li><a href="career.html">Career</a></li>
-                                            <li><a href="login.html">Login</a></li>
-                                            <li><a href="registration.html">Registration</a></li>
-                                            <li><a href="forgot-password.html">Forgot Password</a></li>
-                                            <li><a href="404.html">Error 404</a></li>
-                                            <li><a href="under-construction.html">Under Construction</a>
-                                            </li>
-                                            <li><a href="maintenance.html">Maintenance</a></li>
-                                            <li><a href="comingsoon.html">Comingsoon</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="#!">Features</a>
-                                <ul>
-                                    <li><a href="#!">Headers</a>
-                                        <ul>
-                                            <li><a href="header-1.html">Header Style 1</a></li>
-                                            <li><a href="header-2.html">Header Style 2</a></li>
-                                            <li><a href="header-3.html">Header Style 3</a></li>
-                                            <li><a href="header-4.html">Header Style 4</a></li>
-                                            <li><a href="header-5.html">Header Style 5</a></li>
-                                            <li><a href="header-6.html">Header Style 6</a></li>
-                                            <li><a href="header-7.html">Header Style 7</a></li>
-                                            <li><a href="header-8.html">Header Style 8</a></li>
-                                            <li><a href="header-9.html">Header Style 9</a></li>
-                                            <li><a href="header-10.html">Header Style 10</a></li>
-                                            <li><a href="header-11.html">Header Style 11</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#!">Footers</a>
-                                        <ul>
-                                            <li><a href="footer-1.html">Footer Style 1</a></li>
-                                            <li><a href="footer-2.html">Footer Style 2</a></li>
-                                            <li><a href="footer-3.html">Footer Style 3</a></li>
-                                            <li><a href="footer-4.html">Footer Style 4</a></li>
-                                            <li><a href="footer-5.html">Footer Style 5</a></li>
-                                            <li><a href="footer-6.html">Footer Style 6</a></li>
-                                            <li><a href="footer-7.html">Footer Style 7</a></li>
-                                            <li><a href="footer-8.html">Footer Style 8</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#!">Page titles</a>
-                                        <ul>
-                                            <li><a href="page-title-1.html">Page Title 1</a></li>
-                                            <li><a href="page-title-2.html">Page Title 2</a></li>
-                                            <li><a href="page-title-3.html">Page Title 3</a></li>
-                                            <li><a href="page-title-4.html">Page Title 4</a></li>
-                                            <li><a href="page-title-5.html">Page Title 5</a></li>
-                                            <li><a href="page-title-6.html">Page Title 6</a></li>
-                                            <li><a href="page-title-7.html">Page Title 7</a></li>
-                                            <li><a href="page-title-8.html">Page Title 8</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#!">Revolution Sliders</a>
-                                        <ul>
-                                            <li><a href="rs-slider1.html">Revolution Slider 1</a></li>
-                                            <li><a href="rs-slider2.html">Revolution Slider 2</a></li>
-                                            <li><a href="rs-slider3.html">Revolution Slider 3</a></li>
-                                            <li><a href="rs-slider4.html">Revolution Slider 4</a></li>
-                                            <li><a href="rs-slider5.html">Revolution Slider 5</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#!">Owl Sliders</a>
-                                        <ul>
-                                            <li><a href="owl-slider1.html">Owl Slider 1</a></li>
-                                            <li><a href="owl-slider2.html">Owl Slider 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="video-banner.html">Video Banner</a></li>
-                                    <li><a href="parallax-banner.html">Parallax Banner</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#!">Portfolio</a>
-                                <ul class="row megamenu">
-                                    <li class="col-lg-3">
-                                        <span
-                                            class="d-block m-0 mb-lg-3 py-2 py-lg-0 px-1-9 px-lg-0 text-uppercase sub-title">Full
-                                            Width</span>
-                                        <ul>
-                                            <li><a href="portfolio-four-columns.html">Portfolio 4
-                                                    Columns</a></li>
-                                            <li><a href="portfolio-three-columns.html">Portfolio 3
-                                                    Columns</a></li>
-                                            <li><a href="portfolio-two-columns.html">Portfolio 2
-                                                    Columns</a></li>
-                                            <li><a href="portfolio-with-icon-four-columns.html">Portfolio
-                                                    with icon 4 Columns</a></li>
-                                            <li><a href="portfolio-with-icon-three-columns.html">Portfolio
-                                                    with icon 3 Columns</a></li>
-                                            <li><a href="portfolio-with-icon-two-columns.html">Portfolio
-                                                    with icon 2 Columns</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="col-lg-3">
-                                        <span
-                                            class="d-block m-0 mb-lg-3 py-2 py-lg-0 px-1-9 px-lg-0 text-uppercase sub-title">Boxed
-                                            Layout</span>
-                                        <ul>
-                                            <li><a href="portfolio-boxed-four-columns.html">Portfolio 4
-                                                    Columns</a></li>
-                                            <li><a href="portfolio-boxed-three-columns.html">Portfolio 3
-                                                    Columns</a></li>
-                                            <li><a href="portfolio-boxed-two-columns.html">Portfolio 2
-                                                    Columns</a></li>
-                                            <li><a href="portfolio-boxed-with-icon-four-columns.html">Portfolio
-                                                    with icon 4 Columns</a></li>
-                                            <li><a href="portfolio-boxed-with-icon-three-columns.html">Portfolio
-                                                    with icon 3 Columns</a></li>
-                                            <li><a href="portfolio-boxed-with-icon-two-columns.html">Portfolio
-                                                    with icon 2 Columns</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="col-lg-3">
-                                        <span
-                                            class="d-block m-0 mb-lg-3 py-2 py-lg-0 px-1-9 px-lg-0 text-uppercase sub-title">Gallery
-                                            Layout</span>
-                                        <ul>
-                                            <li><a href="projects-masonry-style-1.html">Masonry Style
-                                                    01</a></li>
-                                            <li><a href="projects-masonry-style-2.html">Masonry Style
-                                                    02</a></li>
-                                            <li><a href="projects-masonry-style-3.html">Masonry Style
-                                                    03</a></li>
-                                            <li><a href="projects-masonry-style-4.html">Masonry Style
-                                                    04</a></li>
-                                            <li><a href="image-gallery-style1.html">Image Gallery Style
-                                                    01</a></li>
-                                            <li><a href="image-gallery-style2.html">Image Gallery Style
-                                                    02</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="col-lg-3">
-                                        <span
-                                            class="d-block m-0 mb-lg-3 py-2 py-lg-0 px-1-9 px-lg-0 text-uppercase sub-title">Single
-                                            Project</span>
-                                        <ul>
-                                            <li><a href="project-detail.html">Projects Detail 01</a></li>
-                                            <li><a href="project-detail-2.html">Projects Detail 02</a></li>
-                                            <li><a href="project-detail-3.html">Projects Detail 03</a></li>
-                                            <li><a href="project-detail-4.html">Projects Detail 04</a></li>
+                            <li> <a class="dropdown-item" href="#">Design</a></li>
+                            <!-- Dropdown submenu -->
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#">Marketing</a>
+                                <div class="dropdown-menu dropdown-menu-start dropdown-width-lg" data-bs-popper="none">
+                                    <div class="row p-4">
+                                        <!-- Dropdown column item -->
+                                        <div class="col-xl-6 col-xxl-4 mb-4 mb-xl-0">
+                                            <h6 class="mb-0">Get started</h6>
+                                            <hr> <!-- Divider -->
+                                            <ul class="list-unstyled">
+                                                <li> <a class="dropdown-item" href="#">Market Research</a> </li>
+                                                <li> <a class="dropdown-item" href="#">Advertising</a> </li>
+                                                <li> <a class="dropdown-item" href="#">Consumer Behavior</a> </li>
+                                                <li> <a class="dropdown-item" href="#">Digital Marketing</a> </li>
+                                                <li> <a class="dropdown-item" href="#">Marketing Ethics</a> </li>
+                                                <li> <a class="dropdown-item" href="#">Social Media Marketing</a>
+                                                </li>
+                                                <li> <a class="dropdown-item" href="#">Public Relations</a> </li>
+                                                <li> <a class="dropdown-item" href="#">Advertising</a> </li>
+                                                <li> <a class="dropdown-item" href="#">Decision Science</a> </li>
+                                                <li> <a class="dropdown-item" href="#">SEO</a> </li>
+                                                <li> <a class="dropdown-item" href="#">Business Marketing</a>
+                                                </li>
+                                            </ul>
+                                        </div>
 
-                                        </ul>
+                                        <!-- Dropdown column item -->
+                                        <div class="col-xl-6 col-xxl-4 mb-4 mb-xl-0">
+                                            <h6 class="mb-0">Degree</h6>
+                                            <hr> <!-- Divider -->
+                                            <!-- Dropdown item -->
+                                            <div class="d-flex mb-4 position-relative">
+                                                <img src="assets/images/client/uni-logo-01.svg" class="icon-md"
+                                                    alt="">
+                                                <div class="ms-3">
+                                                    <a class="stretched-link h6 mb-0" href="#">American Century
+                                                        University, New Mexico</a>
+                                                    <p class="mb-0 small">Bachelor of computer science</p>
+                                                </div>
+                                            </div>
+                                            <!-- Dropdown item -->
+                                            <div class="d-flex mb-4 position-relative">
+                                                <img src="assets/images/client/uni-logo-02.svg" class="icon-md"
+                                                    alt="">
+                                                <div class="ms-3">
+                                                    <a class="stretched-link h6 mb-0" href="#">Indiana College
+                                                        of - Bloomington</a>
+                                                    <p class="mb-0 small">Masters of computer science</p>
+                                                </div>
+                                            </div>
+                                            <!-- Dropdown item -->
+                                            <div class="d-flex mb-4 position-relative">
+                                                <img src="assets/images/client/uni-logo-03.svg" class="icon-md"
+                                                    alt="">
+                                                <div class="ms-3">
+                                                    <a class="stretched-link h6 mb-0" href="#">College of South
+                                                        Florida</a>
+                                                    <p class="mb-0 small">Medical science college</p>
+                                                </div>
+                                            </div>
+                                            <!-- Dropdown item -->
+                                            <div class="d-flex mb-4 position-relative">
+                                                <img src="assets/images/client/uni-logo-01.svg" class="icon-md"
+                                                    alt="">
+                                                <div class="ms-3">
+                                                    <a class="stretched-link h6 mb-0" href="#">Andeerson
+                                                        Campus</a>
+                                                    <p class="mb-0 small">Bachelor of computer science</p>
+                                                </div>
+                                            </div>
+                                            <!-- Dropdown item -->
+                                            <div class="d-flex position-relative">
+                                                <img src="assets/images/client/uni-logo-04.svg" class="icon-md"
+                                                    alt="">
+                                                <div class="ms-3">
+                                                    <a class="stretched-link h6 mb-0" href="#">University of
+                                                        South California</a>
+                                                    <p class="mb-0 small">Masters of business development</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Dropdown column item -->
+                                        <div class="col-xl-6 col-xxl-4">
+                                            <h6 class="mb-0">Certificate</h6>
+                                            <hr> <!-- Divider -->
+                                            <!-- Dropdown item -->
+                                            <div class="d-flex mb-4 position-relative">
+                                                <h2 class="mb-0"><i
+                                                        class="fab fa-fw fa-google text-google-icon"></i></h2>
+                                                <div class="ms-2">
+                                                    <a class="stretched-link h6 mb-0" href="#">Google SEO
+                                                        certificate</a>
+                                                    <p class="mb-0 small">No prerequisites</p>
+                                                </div>
+                                            </div>
+                                            <!-- Dropdown item -->
+                                            <div class="d-flex mb-4 position-relative">
+                                                <h2 class="mb-0"><i
+                                                        class="fab fa-fw fa-linkedin-in text-linkedin"></i></h2>
+                                                <div class="ms-2">
+                                                    <a class="stretched-link h6 mb-0" href="#">Business
+                                                        Development Executive(BDE)</a>
+                                                    <p class="mb-0 small">No prerequisites</p>
+                                                </div>
+                                            </div>
+                                            <!-- Dropdown item -->
+                                            <div class="d-flex mb-4 position-relative">
+                                                <h2 class="mb-0"><i class="fab fa-fw fa-facebook text-facebook"></i>
+                                                </h2>
+                                                <div class="ms-2">
+                                                    <a class="stretched-link h6 mb-0" href="#">Facebook social
+                                                        media marketing</a>
+                                                    <p class="mb-0 small">Expert advice</p>
+                                                </div>
+                                            </div>
+                                            <!-- Dropdown item -->
+                                            <div class="d-flex mb-4 position-relative">
+                                                <h2 class="mb-0"><i
+                                                        class="fas fa-fw fa-basketball-ball text-dribbble"></i></h2>
+                                                <div class="ms-2">
+                                                    <a class="stretched-link h6 mb-0" href="#">Creative graphics
+                                                        design</a>
+                                                    <p class="mb-0 small">No prerequisites</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Advertisement -->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="card bg-blue rounded-0 rounded-bottom p-3 position-relative overflow-hidden"
+                                                style="background:url(assets/images/pattern/05.png) no-repeat center center; background-size:cover;">
+                                                <!-- SVG decoration -->
+                                                <figure
+                                                    class="position-absolute bottom-0 end-0 mb-n4 d-none d-md-block">
+                                                    <svg width="92.6px" height="135.2px">
+                                                        <path class="fill-white"
+                                                            d="M71.5,131.4c0.2,0.1,0.4,0.1,0.6-0.1c0,0,0.6-0.7,1.6-1.9c0.2-0.2,0.1-0.5-0.1-0.7c-0.2-0.2-0.5-0.1-0.7,0.1 c-1,1.2-1.6,1.8-1.6,1.8c-0.2,0.2-0.2,0.5,0,0.7C71.4,131.3,71.4,131.4,71.5,131.4z">
+                                                        </path>
+                                                        <path class="fill-white"
+                                                            d="M76,125.5c-0.2-0.2-0.3-0.5-0.1-0.7c1-1.4,1.9-2.8,2.8-4.2c0.1-0.2,0.4-0.3,0.7-0.2c0.2,0.1,0.3,0.4,0.2,0.7 c-0.9,1.4-1.8,2.9-2.8,4.2C76.6,125.6,76.3,125.6,76,125.5C76.1,125.5,76.1,125.5,76,125.5z M81.4,116.9 c-0.2-0.1-0.3-0.4-0.2-0.7c0.2-0.5,0.5-0.9,0.7-1.4c0.5-1.1,1-2.1,1.5-3.2c0.1-0.3,0.4-0.4,0.6-0.3c0.3,0.1,0.4,0.4,0.3,0.6 c-0.5,1.1-1,2.1-1.5,3.2c-0.2,0.5-0.5,0.9-0.7,1.4C81.9,117,81.6,117,81.4,116.9C81.4,116.9,81.4,116.9,81.4,116.9z M85.1,107.1 c0.5-1.6,1-3.2,1.3-4.8c0.1-0.3,0.3-0.4,0.6-0.4c0.3,0.1,0.4,0.3,0.4,0.6c-0.4,1.6-0.8,3.3-1.3,4.9c-0.1,0.3-0.4,0.4-0.6,0.3 c0,0,0,0-0.1,0C85.1,107.6,85,107.3,85.1,107.1z M47.3,83c-1.5-1.1-2.5-2.5-3.1-4.2c-0.1-0.3,0-0.5,0.3-0.6 c0.3-0.1,0.5,0,0.6,0.3c0.5,1.5,1.5,2.7,2.8,3.7c0.2,0.2,0.3,0.5,0.1,0.7C47.9,83.1,47.6,83.1,47.3,83C47.4,83,47.4,83,47.3,83z  M51.7,84.6c0-0.3,0.3-0.5,0.5-0.4c1.4,0.2,2.9-0.3,4.3-1.4c0.2-0.2,0.5-0.1,0.7,0.1c0.2,0.2,0.1,0.5-0.1,0.7 c-1.6,1.2-3.4,1.8-5,1.6c-0.1,0-0.1,0-0.2,0C51.8,85,51.7,84.8,51.7,84.6z M87.2,97.4c0.2-1.7,0.2-3.3,0.2-5 c0-0.3,0.2-0.5,0.5-0.5c0.3,0,0.5,0.2,0.5,0.5c0.1,1.7,0,3.4-0.2,5.1c0,0.3-0.3,0.5-0.5,0.4c-0.1,0-0.1,0-0.2,0 C87.3,97.8,87.1,97.6,87.2,97.4z M43.7,73.6c0.2-1.6,0.7-3.2,1.5-4.8l0.1-0.1c0.1-0.2,0.4-0.3,0.7-0.2c0,0,0,0,0,0 c0.2,0.1,0.3,0.4,0.2,0.7l-0.1,0.1c-0.7,1.5-1.2,3-1.4,4.5c0,0.3-0.3,0.5-0.6,0.4c-0.1,0-0.1,0-0.2,0 C43.8,74,43.7,73.8,43.7,73.6z M60,79.8c-0.2-0.1-0.3-0.5-0.1-0.7c0.4-0.6,0.8-1.3,1.1-2c0.4-0.8,0.7-1.6,1-2.4 c0.1-0.3,0.4-0.4,0.6-0.3c0.3,0.1,0.4,0.4,0.3,0.6c-0.3,0.9-0.7,1.7-1.1,2.5c-0.4,0.7-0.8,1.4-1.2,2.1C60.5,79.9,60.2,80,60,79.8 C60,79.9,60,79.8,60,79.8z M86.8,87.5c-0.3-1.6-0.7-3.2-1.2-4.8c-0.1-0.3,0.1-0.5,0.3-0.6c0.3-0.1,0.5,0.1,0.6,0.3 c0.5,1.6,1,3.3,1.2,4.9c0,0.3-0.1,0.5-0.4,0.6c-0.1,0-0.2,0-0.3,0C87,87.7,86.9,87.6,86.8,87.5z M48.2,65.1 c-0.2-0.2-0.2-0.5,0-0.7c1.2-1.3,2.5-2.4,3.9-3.4c0.2-0.1,0.5-0.1,0.7,0.1c0.1,0.2,0.1,0.5-0.1,0.7c-1.4,0.9-2.6,2-3.7,3.2 c-0.2,0.2-0.4,0.2-0.6,0.1C48.3,65.2,48.3,65.1,48.2,65.1z M63.3,70c0.3-1.6,0.5-3.3,0.5-4.9c0-0.3,0.2-0.5,0.5-0.5 c0.3,0,0.5,0.2,0.5,0.5c-0.1,1.7-0.2,3.4-0.5,5.1c0,0.3-0.3,0.4-0.6,0.4c0,0-0.1,0-0.1,0C63.3,70.4,63.2,70.2,63.3,70z M83.8,78 c-0.7-1.5-1.5-3-2.4-4.3c-0.1-0.2-0.1-0.5,0.1-0.7c0.2-0.1,0.5-0.1,0.7,0.2c0.9,1.4,1.7,2.9,2.5,4.4c0.1,0.2,0,0.5-0.2,0.7 c-0.1,0.1-0.3,0.1-0.4,0C83.9,78.2,83.8,78.1,83.8,78z M56.5,59.6c-0.1-0.3,0.1-0.5,0.4-0.6c1.7-0.4,3.4-0.5,5.2-0.3 c0.3,0,0.5,0.3,0.4,0.5c0,0.3-0.3,0.5-0.5,0.4c-1.7-0.2-3.3-0.1-4.8,0.3c-0.1,0-0.2,0-0.3,0C56.6,59.8,56.5,59.7,56.5,59.6z  M78.4,69.7c-1.1-1.3-2.2-2.5-3.4-3.6c-0.2-0.2-0.2-0.5,0-0.7c0.2-0.2,0.5-0.2,0.7,0c1.2,1.1,2.4,2.4,3.5,3.7 c0.2,0.2,0.1,0.5-0.1,0.7c-0.2,0.1-0.4,0.1-0.5,0.1C78.5,69.8,78.4,69.7,78.4,69.7z M63.6,60.1c-0.2-1.6-0.4-3.3-0.8-4.9 c-0.1-0.3,0.1-0.5,0.4-0.6c0.3-0.1,0.5,0.1,0.6,0.4c0.4,1.7,0.7,3.4,0.8,5c0,0.3-0.2,0.5-0.4,0.5c-0.1,0-0.2,0-0.3,0 C63.7,60.4,63.6,60.2,63.6,60.1z M71,63.1c-1.4-0.9-2.9-1.7-4.4-2.3c-0.3-0.1-0.4-0.4-0.3-0.6c0.1-0.3,0.4-0.4,0.6-0.3 c1.5,0.6,3.1,1.4,4.6,2.3c0.2,0.1,0.3,0.5,0.1,0.7C71.6,63.1,71.3,63.2,71,63.1C71.1,63.1,71.1,63.1,71,63.1z M61.3,50.4 c-0.6-1.5-1.3-3-2.1-4.5c-0.1-0.2-0.1-0.5,0.2-0.7c0.2-0.1,0.5-0.1,0.7,0.2c0.9,1.5,1.6,3.1,2.2,4.6c0.1,0.3,0,0.5-0.3,0.6 c-0.1,0.1-0.3,0-0.4,0C61.5,50.6,61.4,50.5,61.3,50.4z M56.5,41.8c-1-1.3-2.1-2.6-3.2-3.8c-0.2-0.2-0.2-0.5,0-0.7 c0.2-0.2,0.5-0.2,0.7,0c1.2,1.3,2.3,2.6,3.3,3.9c0.2,0.2,0.1,0.5-0.1,0.7c-0.2,0.1-0.4,0.1-0.5,0C56.6,41.9,56.5,41.8,56.5,41.8z  M49.7,34.5c-1.2-1.1-2.5-2.1-3.9-3.2c-0.2-0.2-0.3-0.5-0.1-0.7c0.2-0.2,0.5-0.3,0.7-0.1c1.4,1,2.7,2.1,3.9,3.2 c0.2,0.2,0.2,0.5,0,0.7c-0.2,0.2-0.4,0.2-0.6,0.1C49.7,34.6,49.7,34.5,49.7,34.5z M41.7,28.5c-1.4-0.9-2.8-1.8-4.3-2.6 c-0.2-0.1-0.3-0.4-0.2-0.7c0.1-0.2,0.4-0.3,0.7-0.2c1.5,0.8,2.9,1.7,4.3,2.6c0.2,0.1,0.3,0.5,0.1,0.7 C42.2,28.6,42,28.6,41.7,28.5C41.7,28.5,41.7,28.5,41.7,28.5z">
+                                                        </path>
+                                                        <path class="fill-white"
+                                                            d="M30.7,22.6C30.7,22.6,30.7,22.6,30.7,22.6c0,0,0.9,0.4,2.3,1c0.2,0.1,0.5,0,0.7-0.2c0.1-0.2,0-0.5-0.2-0.7 c0,0,0,0,0,0c-1.4-0.7-2.2-1-2.3-1c-0.3-0.1-0.5,0-0.6,0.3C30.3,22.2,30.4,22.5,30.7,22.6z">
+                                                        </path>
+                                                        <path class="fill-warning"
+                                                            d="M22.6,23.6l-1.1-4.1c0,0-11.7-7.5-11.9-7.6c-0.1-0.2-4.9-6.5-4.9-6.5l8.2,3.5l12.2,8.4L22.6,23.6z">
+                                                        </path>
+                                                        <polygon class="fill-warning opacity-6"
+                                                            points="31.2,12.3 4.7,5.4 25.1,17.2"></polygon>
+                                                        <polygon class="fill-warning opacity-6"
+                                                            points="21.5,19.5 15,24.8 4.7,5.4 "></polygon>
+                                                    </svg>
+                                                </figure>
+                                                <!-- Body -->
+                                                <div class="card-body">
+                                                    <!-- Title -->
+                                                    <h5 class="card-title text-white mb-2">Access 25K Online courses
+                                                        from 120 institutions, Start today!</h5>
+                                                    <p class="text-white text-opacity-75">Here is the description of
+                                                        premium features which will allow users to get benefits and save
+                                                        a lot of money</p>
+                                                    <!-- Button -->
+                                                    <a href="#" class="btn btn-sm btn-dark mb-0">Purchase
+                                                        Premium</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li> <a class="dropdown-item" href="#">Music</a></li>
+                            <li> <a class="dropdown-item" href="#">Lifestyle</a></li>
+                            <li> <a class="dropdown-item" href="#">IT & software</a></li>
+                            <li> <a class="dropdown-item" href="#">Personal development</a></li>
+                            <li> <a class="dropdown-item" href="#">Health & fitness</a></li>
+                            <li> <a class="dropdown-item" href="#">Teaching</a></li>
+                            <li> <a class="dropdown-item" href="#">Social science</a></li>
+                            <li> <a class="dropdown-item" href="#">Math & logic</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li> <a class="dropdown-item bg-primary text-primary bg-opacity-10 rounded-2 mb-0"
+                                    href="#">View all categories</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Nav category menu END -->
+
+                <!-- Nav Main menu START -->
+                <ul class="navbar-nav navbar-nav-scroll me-auto">
+                    <!-- Nav item 1 Demos -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="demoMenu"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Demos</a>
+                        <ul class="dropdown-menu" aria-labelledby="demoMenu">
+                            <li> <a class="dropdown-item active" href="index.html">Home Default</a></li>
+                            <li> <a class="dropdown-item" href="index-2.html">Home Education</a></li>
+                            <li> <a class="dropdown-item" href="index-3.html">Home Academy</a></li>
+                            <li> <a class="dropdown-item" href="index-4.html">Home Course</a></li>
+                            <li> <a class="dropdown-item" href="index-5.html">Home University</a></li>
+                            <li> <a class="dropdown-item" href="index-6.html">Home Kindergarten</a></li>
+                            <li> <a class="dropdown-item" href="index-7.html">Home Landing</a></li>
+                            <li> <a class="dropdown-item" href="index-8.html">Home Tutor</a></li>
+                            <li> <a class="dropdown-item" href="index-9.html">Home School</a>
+                            <li>
+                            <li> <a class="dropdown-item" href="index-10.html">Home Abroad</a></li>
+                            <li> <a class="dropdown-item" href="index-11.html">Home Workshop</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Nav item 2 Pages -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="pagesMenu" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <ul class="dropdown-menu" aria-labelledby="pagesMenu">
+                            <!-- Dropdown submenu -->
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#">Course</a>
+                                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                                    <li> <a class="dropdown-item" href="course-categories.html">Course Categories</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li> <a class="dropdown-item" href="course-grid.html">Course Grid Classic</a></li>
+                                    <li> <a class="dropdown-item" href="course-grid-2.html">Course Grid Minimal</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li> <a class="dropdown-item" href="course-list.html">Course List Classic</a></li>
+                                    <li> <a class="dropdown-item" href="course-list-2.html">Course List Minimal</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li> <a class="dropdown-item" href="course-detail.html">Course Detail Classic</a>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="course-detail-min.html">Course Detail
+                                            Minimal</a></li>
+                                    <li> <a class="dropdown-item" href="course-detail-adv.html">Course Detail
+                                            Advance</a></li>
+                                    <li> <a class="dropdown-item" href="course-detail-module.html">Course Detail
+                                            Module</a></li>
+                                    <li> <a class="dropdown-item" href="course-video-player.html">Course Full Screen
+                                            Video</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Dropdown submenu -->
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#">About</a>
+                                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                                    <li> <a class="dropdown-item" href="about.html">About Us</a></li>
+                                    <li> <a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
+                                    <li> <a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
+                                    <li> <a class="dropdown-item" href="blog-masonry.html">Blog Masonry</a></li>
+                                    <li> <a class="dropdown-item" href="blog-detail.html">Blog Detail</a></li>
+                                    <li> <a class="dropdown-item" href="pricing.html">Pricing</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Dropdown submenu -->
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#">Hero Banner</a>
+                                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                                    <li> <a class="dropdown-item" href="docs/snippet-hero-12.html">Hero Form</a></li>
+                                    <li> <a class="dropdown-item" href="docs/snippet-hero-13.html">Hero Vector</a>
+                                    </li>
+                                    <li>
+                                        <p class="dropdown-item mb-0">Coming soon....</p>
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="#!">Blog</a>
-                                <ul>
-                                    <li><a href="blog-grid.html">Blog Grid</a></li>
-                                    <li><a href="blog-grid-classic.html">Blog Grid Classic</a></li>
-                                    <li><a href="blog-grid-sidebar.html">Blog Grid Sidebar</a></li>
-                                    <li><a href="blog-list.html">Blog List</a></li>
-                                    <li><a href="blog-list-sidebar.html">Blog List Right Sidebar</a></li>
-                                    <li><a href="blog-left-sidebar.html">Blog List Left Sidebar</a></li>
-                                    <li><a href="blog-full-width.html">Blog Full Width</a></li>
-                                    <li><a href="blog-post.html">Blog Post</a></li>
+
+                            <li> <a class="dropdown-item" href="instructor-list.html">Instructor List</a></li>
+                            <li> <a class="dropdown-item" href="instructor-single.html">Instructor Single</a></li>
+                            <li> <a class="dropdown-item" href="become-instructor.html">Become an Instructor</a></li>
+                            <li> <a class="dropdown-item" href="abroad-single.html">Abroad Single</a></li>
+                            <li> <a class="dropdown-item" href="workshop-detail.html">Workshop Detail</a></li>
+                            <li> <a class="dropdown-item" href="event-detail.html">Event Detail</a></li>
+
+                            <!-- Dropdown submenu -->
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#">Shop</a>
+                                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                                    <li> <a class="dropdown-item" href="shop.html">Shop grid</a></li>
+                                    <li> <a class="dropdown-item" href="shop-product-detail.html">Product detail</a>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="cart.html">Cart</a></li>
+                                    <li> <a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                                    <li> <a class="dropdown-item" href="empty-cart.html">Empty Cart</a></li>
+                                    <li> <a class="dropdown-item" href="wishlist.html">Wishlist</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#!">Shop</a>
-                                <ul>
-                                    <li><a href="shop-product-grid.html">Product Grid</a></li>
-                                    <li><a href="shop-product-list.html">Product List</a></li>
-                                    <li><a href="shop-product-full-three-coulmn.html">Product Three
-                                            Coulmns</a></li>
-                                    <li><a href="shop-product-full-four-coulmn.html">Product Four
-                                            Coulmns</a></li>
-                                    <li><a href="shop-product-detail.html">Product Detail</a></li>
-                                    <li><a href="shop-cart.html">Shop Cart</a></li>
-                                    <li><a href="shop-checkout.html">Shop Checkout</a></li>
+
+                            <!-- Dropdown submenu -->
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#">Help</a>
+                                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                                    <li> <a class="dropdown-item" href="help-center.html">Help Center</a></li>
+                                    <li> <a class="dropdown-item" href="help-center-detail.html">Help Center
+                                            Single</a></li>
+                                    <li> <a class="dropdown-item" href="faq.html">FAQs</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#!">Elements</a>
-                                <ul class="row megamenu">
-                                    <li class="col-lg-3">
-                                        <span
-                                            class="d-block m-0 mb-lg-3 py-2 py-lg-0 px-1-9 px-lg-0 text-uppercase sub-title">Elements
-                                            01</span>
-                                        <ul>
-                                            <li><a href="accordions.html"><i
-                                                        class="fas fa-sliders-h me-2"></i>Accordions</a>
-                                            </li>
-                                            <li><a href="action-boxes.html"><i class="far fa-square me-2"></i>Action
-                                                    Boxes</a>
-                                            </li>
-                                            <li><a href="alerts.html"><i class="fas fa-bell me-2"></i>Alerts</a></li>
-                                            <li><a href="audio-video.html"><i class="fas fa-volume-up me-2"></i>Audio
-                                                    Video</a>
-                                            </li>
-                                            <li><a href="blockquote.html"><i
-                                                        class="fas fa-vector-square me-2"></i>Blockquote</a>
-                                            </li>
-                                            <li><a href="buttons.html"><i class="fas fa-link me-2"></i>Buttons</a>
-                                            </li>
-                                            <li><a href="blog-content.html"><i class="fas fa-edit me-2"></i>Blog
-                                                    Content</a></li>
-                                            <li><a href="bootstrap-grid.html"><i class="fas fa-th me-2"></i>Bootstrap
-                                                    Grid</a></li>
-                                            <li><a href="count-down.html"><i class="fas fa-flag me-2"></i>Count
-                                                    Down</a></li>
-                                            <li><a href="charts.html"><i class="fas fa-chart-pie me-2"></i>Charts</a>
-                                            </li>
+
+                            <!-- Dropdown submenu -->
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#">Authentication</a>
+                                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                                    <li> <a class="dropdown-item" href="sign-in.html">Sign In</a></li>
+                                    <li> <a class="dropdown-item" href="sign-up.html">Sign Up</a></li>
+                                    <li> <a class="dropdown-item" href="forgot-password.html">Forgot Password</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Dropdown submenu -->
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#">Form</a>
+                                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                                    <li> <a class="dropdown-item" href="request-demo.html">Request a demo</a></li>
+                                    <li> <a class="dropdown-item" href="book-class.html">Book a Class</a></li>
+                                    <li> <a class="dropdown-item" href="request-access.html">Free Access</a></li>
+                                    <li> <a class="dropdown-item" href="university-admission-form.html">Admission
+                                            Form</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Dropdown submenu -->
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#">Specialty</a>
+                                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                                    <li> <a class="dropdown-item" href="error-404.html">Error 404</a></li>
+                                    <li> <a class="dropdown-item" href="coming-soon.html">Coming Soon</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <!-- Nav item 3 Account -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="accounntMenu"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Accounts</a>
+                        <ul class="dropdown-menu" aria-labelledby="accounntMenu">
+                            <!-- Dropdown submenu -->
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#"><i
+                                        class="fas fa-user-tie fa-fw me-1"></i>Instructor</a>
+                                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                                    <li> <a class="dropdown-item" href="instructor-dashboard.html"><i
+                                                class="bi bi-grid-fill fa-fw me-1"></i>Dashboard</a> </li>
+                                    <li> <a class="dropdown-item" href="instructor-manage-course.html"><i
+                                                class="bi bi-basket-fill fa-fw me-1"></i>Courses</a> </li>
+                                    <li> <a class="dropdown-item" href="instructor-create-course.html"><i
+                                                class="bi bi-file-earmark-plus-fill fa-fw me-1"></i>Create Course</a>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="course-added.html"><i
+                                                class="bi bi-file-check-fill fa-fw me-1"></i>Course Added</a> </li>
+                                    <li> <a class="dropdown-item" href="instructor-quiz.html"><i
+                                                class="bi bi-question-diamond fa-fw me-1"></i>Quiz</a> </li>
+                                    <li> <a class="dropdown-item" href="instructor-earning.html"><i
+                                                class="fas fa-chart-line fa-fw me-1"></i>Earnings</a> </li>
+                                    <li> <a class="dropdown-item" href="instructor-studentlist.html"><i
+                                                class="fas fa-user-graduate fa-fw me-1"></i>Students</a> </li>
+                                    <li> <a class="dropdown-item" href="instructor-order.html"><i
+                                                class="bi bi-cart-check-fill fa-fw me-1"></i>Orders</a> </li>
+                                    <li> <a class="dropdown-item" href="instructor-review.html"><i
+                                                class="bi bi-star-fill fa-fw me-1"></i>Reviews</a> </li>
+                                    <li> <a class="dropdown-item" href="instructor-payout.html"><i
+                                                class="fas fa-wallet fa-fw me-1"></i>Payout</a> </li>
+                                </ul>
+                            </li>
+
+                            <!-- Dropdown submenu -->
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#"><i
+                                        class="fas fa-user-graduate fa-fw me-1"></i>Student</a>
+                                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+                                    <li> <a class="dropdown-item" href="student-dashboard.html"><i
+                                                class="bi bi-grid-fill fa-fw me-1"></i>Dashboard</a> </li>
+                                    <li> <a class="dropdown-item" href="student-subscription.html"><i
+                                                class="bi bi-card-checklist fa-fw me-1"></i>My Subscriptions</a> </li>
+                                    <li> <a class="dropdown-item" href="student-course-list.html"><i
+                                                class="bi bi-basket-fill fa-fw me-1"></i>Courses</a> </li>
+                                    <li> <a class="dropdown-item" href="student-course-resume.html"><i
+                                                class="far fa-fw fa-file-alt me-1"></i>Course Resume</a> </li>
+                                    <li> <a class="dropdown-item" href="student-quiz.html"><i
+                                                class="bi bi-question-diamond fa-fw me-1"></i>Quiz </a> </li>
+                                    <li> <a class="dropdown-item" href="student-payment-info.html"><i
+                                                class="bi bi-credit-card-2-front-fill fa-fw me-1"></i>Payment Info</a>
+                                    </li>
+                                    <li> <a class="dropdown-item" href="student-bookmark.html"><i
+                                                class="fas bi-cart-check-fill fa-fw me-1"></i>Wishlist</a> </li>
+                                </ul>
+                            </li>
+
+                            <li> <a class="dropdown-item" href="admin-dashboard.html"><i
+                                        class="fas fa-user-cog fa-fw me-1"></i>Admin</a> </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li> <a class="dropdown-item" href="instructor-edit-profile.html"><i
+                                        class="fas fa-fw fa-edit me-1"></i>Edit Profile</a> </li>
+                            <li> <a class="dropdown-item" href="instructor-setting.html"><i
+                                        class="fas fa-fw fa-cog me-1"></i>Settings</a> </li>
+                            <li> <a class="dropdown-item" href="instructor-delete-account.html"><i
+                                        class="fas fa-fw fa-trash-alt me-1"></i>Delete Profile</a> </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <!-- Dropdown Level -->
+                            <li class="dropdown-submenu dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#">Dropdown levels</a>
+                                <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
+
+                                    <!-- dropdown submenu open right -->
+                                    <li class="dropdown-submenu dropend">
+                                        <a class="dropdown-item dropdown-toggle" href="#">Dropdown (end)</a>
+                                        <ul class="dropdown-menu" data-bs-popper="none">
+                                            <li> <a class="dropdown-item" href="#">Dropdown item</a> </li>
+                                            <li> <a class="dropdown-item" href="#">Dropdown item</a> </li>
                                         </ul>
                                     </li>
-                                    <li class="col-lg-3">
-                                        <span
-                                            class="d-block m-0 mb-lg-3 py-2 py-lg-0 px-1-9 px-lg-0 text-uppercase sub-title">Elements
-                                            02</span>
-                                        <ul>
-                                            <li><a href="countups.html"><i
-                                                        class="fas fa-compress me-2"></i>Countups</a></li>
-                                            <li><a href="dropcaps.html"><i
-                                                        class="fas fa-highlighter me-2"></i>Dropcaps</a>
-                                            </li>
-                                            <li><a href="feature-boxes.html"><i
-                                                        class="fas fa-square-full me-2"></i>Feature
-                                                    Boxes</a></li>
-                                            <li><a href="feature-boxes-fancy.html"><i
-                                                        class="fas fa-pen-square me-2"></i>Feature Boxes
-                                                    Fancy</a></li>
-                                            <li><a href="forms.html"><i class="fab fa-wpforms me-2"></i>Forms</a></li>
-                                            <li><a href="form-elements.html"><i class="fas fa-cubes me-2"></i>Form
-                                                    Elements</a>
-                                            </li>
-                                            <li><a href="font-icons.html"><i class="far fa-check-square me-2"></i>Font
-                                                    Icons</a>
-                                            </li>
-                                            <li><a href="google-map.html"><i
-                                                        class="fas fa-map-marker-alt me-2"></i>Google
-                                                    Map</a></li>
-                                            <li><a href="html5-video.html"><i class="fas fa-video me-2"></i>HTML5
-                                                    Video</a></li>
-                                            <li><a href="image-slider.html"><i class="far fa-images me-2"></i>Image
-                                                    Slider</a>
-                                            </li>
+                                    <li> <a class="dropdown-item" href="#">Dropdown item</a> </li>
+
+                                    <!-- dropdown submenu open left -->
+                                    <li class="dropdown-submenu dropstart">
+                                        <a class="dropdown-item dropdown-toggle" href="#">Dropdown (start)</a>
+                                        <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
+                                            <li> <a class="dropdown-item" href="#">Dropdown item</a> </li>
+                                            <li> <a class="dropdown-item" href="#">Dropdown item</a> </li>
                                         </ul>
                                     </li>
-                                    <li class="col-lg-3">
-                                        <span
-                                            class="d-block m-0 mb-lg-3 py-2 py-lg-0 px-1-9 px-lg-0 text-uppercase sub-title">Elements
-                                            03</span>
-                                        <ul>
-                                            <li><a href="media-object.html"><i
-                                                        class="fas fa-photo-video me-2"></i>Media
-                                                    Object</a></li>
-                                            <li><a href="modal.html"><i class="fas fa-expand me-2"></i>Modal</a></li>
-                                            <li><a href="liststyles.html"><i class="fas fa-list-ul me-2"></i>List
-                                                    Styles</a>
-                                            </li>
-                                            <li><a href="pagetitles.html"><i class="fas fa-file-alt me-2"></i>Page
-                                                    titles</a>
-                                            </li>
-                                            <li><a href="partners.html"><i
-                                                        class="fas fa-handshake me-2"></i>Partners</a></li>
-                                            <li><a href="pricing-lists.html"><i
-                                                        class="fas fa-clipboard-list me-2"></i>Pricing
-                                                    Lists</a></li>
-                                            <li><a href="process.html"><i class="fas fa-expand me-2"></i>Process</a>
-                                            </li>
-                                            <li><a href="progress-bars.html"><i class="fas fa-tasks me-2"></i>Progress
-                                                    Bars</a>
-                                            </li>
-                                            <li><a href="project-elements.html"><i
-                                                        class="fas fa-project-diagram me-2"></i>Project
-                                                    Elements</a></li>
-                                            <li><a href="responsive-videos.html"><i
-                                                        class="fas fa-video me-2"></i>Responsive Videos</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="col-lg-3">
-                                        <span
-                                            class="d-block m-0 mb-lg-3 py-2 py-lg-0 px-1-9 px-lg-0 text-uppercase sub-title">Elements
-                                            04</span>
-                                        <ul>
-                                            <li><a href="social-icons.html"><i
-                                                        class="fas fa-share-square me-2"></i>Social
-                                                    Icons</a></li>
-                                            <li><a href="subscribe.html"><i
-                                                        class="fas fa-newspaper me-2"></i>Subscribe</a>
-                                            </li>
-                                            <li><a href="table.html"><i class="fas fa-server me-2"></i>Table</a></li>
-                                            <li><a href="tabs.html"><i class="fas fa-sliders-h me-2"></i>Tabs</a></li>
-                                            <li><a href="testmonials.html"><i
-                                                        class="fas fa-quote-left me-2"></i>Testmonials</a>
-                                            </li>
-                                            <li><a href="testmonials-2.html"><i
-                                                        class="fas fa-quote-right me-2"></i>Testmonials
-                                                    2</a></li>
-                                            <li><a href="timeline.html"><i class="fas fa-clock me-2"></i>Timeline</a>
-                                            </li>
-                                            <li><a href="typography.html"><i
-                                                        class="fas fa-text-height me-2"></i>Typography</a>
-                                            </li>
-                                            <li><a href="vimeo-video.html"><i class="fab fa-vimeo me-2"></i>Vimeo
-                                                    Video</a></li>
-                                            <li><a href="youtube-video.html"><i
-                                                        class="fab fa-youtube me-2"></i>Youtube Video</a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                    <li> <a class="dropdown-item" href="#">Dropdown item</a> </li>
                                 </ul>
                             </li>
                         </ul>
-                        <!-- end menu area -->
+                    </li>
 
+                    <!-- Nav item 4 Megamenu-->
+                    <li class="nav-item dropdown dropdown-fullwidth">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Megamenu</a>
+                        <div class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
+                            <div class="row p-4">
+                                <!-- Dropdown column item -->
+                                <div class="col-xl-6 col-xxl-3 mb-3">
+                                    <h6 class="mb-0">Get started</h6>
+                                    <hr>
+                                    <ul class="list-unstyled">
+                                        <li> <a class="dropdown-item" href="#">Market research</a> </li>
+                                        <li> <a class="dropdown-item" href="#">Advertising</a> </li>
+                                        <li> <a class="dropdown-item" href="#">Consumer behavior</a> </li>
+                                        <li> <a class="dropdown-item" href="#">Digital marketing</a> </li>
+                                        <li> <a class="dropdown-item" href="#">Marketing ethics</a> </li>
+                                        <li> <a class="dropdown-item" href="#">Social media marketing</a> </li>
+                                        <li> <a class="dropdown-item" href="#">Public relations</a> </li>
+                                        <li> <a class="dropdown-item" href="#">Advertising</a> </li>
+                                        <li> <a class="dropdown-item" href="#">Decision science</a> </li>
+                                        <li> <a class="dropdown-item" href="#">SEO</a> </li>
+                                        <li> <a class="dropdown-item" href="#">Business marketing</a> </li>
+                                    </ul>
+                                </div>
 
-                    </nav>
+                                <!-- Dropdown column item -->
+                                <div class="col-xl-6 col-xxl-3 mb-3">
+                                    <h6 class="mb-0">Degree</h6>
+                                    <hr>
+                                    <!-- Dropdown item -->
+                                    <div
+                                        class="mb-2 position-relative bg-primary-soft-hover rounded-2 transition-base p-3">
+                                        <a class="stretched-link h6 mb-0" href="#">Contact management</a>
+                                        <p class="mb-0 small text-truncate-2">Speedily say has suitable disposal add
+                                            boy. On forth doubt miles of child.</p>
+                                    </div>
+                                    <!-- Dropdown item -->
+                                    <div
+                                        class="mb-2 position-relative bg-primary-soft-hover rounded-2 transition-base p-3">
+                                        <a class="stretched-link h6 mb-0" href="#">Sales pipeline</a>
+                                        <p class="mb-0 small text-truncate-2">Speedily say has suitable disposal add
+                                            boy. On forth doubt miles of child.</p>
+                                    </div>
+                                    <!-- Dropdown item -->
+                                    <div class="position-relative bg-primary-soft-hover rounded-2 transition-base p-3">
+                                        <a class="stretched-link h6 mb-0" href="#">Security & Permission</a>
+                                        <p class="mb-0 small text-truncate-2">Speedily say has suitable disposal add
+                                            boy. On forth doubt miles of child.</p>
+                                    </div>
+                                </div>
+
+                                <!-- Dropdown column item -->
+                                <div class="col-xl-6 col-xxl-3 mb-3">
+                                    <h6 class="mb-0">Certificate</h6>
+                                    <hr>
+                                    <!-- Dropdown item -->
+                                    <div class="d-flex mb-4 position-relative">
+                                        <h2 class="mb-0"><i class="fab fa-fw fa-google text-google-icon"></i></h2>
+                                        <div class="ms-2">
+                                            <a class="stretched-link h6 mb-0" href="#">Google SEO
+                                                certificate</a>
+                                            <p class="mb-0 small">No prerequisites</p>
+                                        </div>
+                                    </div>
+                                    <!-- Dropdown item -->
+                                    <div class="d-flex mb-4 position-relative">
+                                        <h2 class="mb-0"><i class="fab fa-fw fa-linkedin-in text-linkedin"></i></h2>
+                                        <div class="ms-2">
+                                            <a class="stretched-link h6 mb-0" href="#">Business Development
+                                                Executive(BDE)</a>
+                                            <p class="mb-0 small">No prerequisites</p>
+                                        </div>
+                                    </div>
+                                    <!-- Dropdown item -->
+                                    <div class="d-flex mb-4 position-relative">
+                                        <h2 class="mb-0"><i class="fab fa-fw fa-facebook text-facebook"></i></h2>
+                                        <div class="ms-2">
+                                            <a class="stretched-link h6 mb-0" href="#">Facebook social media
+                                                marketing</a>
+                                            <p class="mb-0 small">Expert advice</p>
+                                        </div>
+                                    </div>
+                                    <!-- Dropdown item -->
+                                    <div class="d-flex mb-4 position-relative">
+                                        <h2 class="mb-0"><i class="fas fa-fw fa-basketball-ball text-dribbble"></i>
+                                        </h2>
+                                        <div class="ms-2">
+                                            <a class="stretched-link h6 mb-0" href="#">Creative graphics
+                                                design</a>
+                                            <p class="mb-0 small">No prerequisites</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Dropdown column item -->
+                                <div class="col-xl-6 col-xxl-3 mb-3">
+                                    <h6 class="mb-0">Download Eduport</h6>
+                                    <hr>
+                                    <!-- Image -->
+                                    <img src="assets/images/element/14.svg" alt="">
+
+                                    <!-- Download button -->
+                                    <div class="row g-2 justify-content-center mt-3">
+                                        <!-- Google play store button -->
+                                        <div class="col-6 col-sm-4 col-xxl-6">
+                                            <a href="#"> <img src="assets/images/client/google-play.svg"
+                                                    class="btn-transition" alt="google-store"> </a>
+                                        </div>
+                                        <!-- App store button -->
+                                        <div class="col-6 col-sm-4 col-xxl-6">
+                                            <a href="#"> <img src="assets/images/client/app-store.svg"
+                                                    class="btn-transition" alt="app-store"> </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Action box -->
+                                <div class="col-12">
+                                    <div class="alert alert-success alert-dismissible fade show mt-2 mb-0 rounded-3"
+                                        role="alert">
+                                        <!-- Avatar -->
+                                        <div class="avatar avatar-xs me-2">
+                                            <img class="avatar-img rounded-circle" src="assets/images/avatar/09.jpg"
+                                                alt="avatar">
+                                        </div>
+                                        <!-- Info -->
+                                        The personality development class starts at 2:00 pm, click to <a href="#"
+                                            class="alert-link">Join Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Nav item 5 link-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="advanceMenu" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end min-w-auto" data-bs-popper="none">
+                            <li>
+                                <a class="dropdown-item" href="https://support.webestica.com/" target="_blank">
+                                    <i class="text-warning fa-fw bi bi-life-preserver me-2"></i>Support
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="docs/index.html" target="_blank">
+                                    <i class="text-danger fa-fw bi bi-card-text me-2"></i>Documentation
+                                </a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="rtl/index.html" target="_blank">
+                                    <i class="text-info fa-fw bi bi-toggle-off me-2"></i>RTL demo
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="https://themes.getbootstrap.com/store/webestica/"
+                                    target="_blank">
+                                    <i class="text-success fa-fw bi bi-cloud-download-fill me-2"></i>Buy Eduport!
+                                </a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="docs/alerts.html" target="_blank">
+                                    <i class="text-orange fa-fw bi bi-puzzle-fill me-2"></i>Components
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="docs/snippets.html">
+                                    <i class="text-purple fa-fw bi bi-stickies-fill me-2"></i>Snippets
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Nav Main menu END -->
+
+                <!-- Nav Search START -->
+                <div class="nav my-3 my-xl-0 px-4 flex-nowrap align-items-center">
+                    <div class="nav-item w-100">
+                        <form class="position-relative">
+                            <input class="form-control pe-5 bg-transparent" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button
+                                class="bg-transparent p-2 position-absolute top-50 end-0 translate-middle-y border-0 text-primary-hover text-reset"
+                                type="submit">
+                                <i class="fas fa-search fs-6 "></i>
+                            </button>
+                        </form>
+                    </div>
                 </div>
+                <!-- Nav Search END -->
             </div>
+            <!-- Main navbar END -->
+
+            <!-- Profile START -->
+            <div class="dropdown ms-1 ms-lg-0">
+                <a class="avatar avatar-sm p-0" href="#" id="profileDropdown" role="button"
+                    data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img class="avatar-img rounded-circle" src="assets/images/avatar/01.jpg" alt="avatar">
+                </a>
+                <ul class="dropdown-menu dropdown-animation dropdown-menu-end shadow pt-3"
+                    aria-labelledby="profileDropdown">
+                    <!-- Profile info -->
+                    <li class="px-3 mb-3">
+                        <div class="d-flex align-items-center">
+                            <!-- Avatar -->
+                            <div class="avatar me-3">
+                                <img class="avatar-img rounded-circle shadow" src="assets/images/avatar/01.jpg"
+                                    alt="avatar">
+                            </div>
+                            <div>
+                                <a class="h6" href="#">Lori Ferguson</a>
+                                <p class="small m-0">example@gmail.com</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <!-- Links -->
+                    <li><a class="dropdown-item" href="#"><i class="bi bi-person fa-fw me-2"></i>Edit
+                            Profile</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="bi bi-gear fa-fw me-2"></i>Account
+                            Settings</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="bi bi-info-circle fa-fw me-2"></i>Help</a>
+                    </li>
+                    <li><a class="dropdown-item bg-danger-soft-hover" href="#"><i
+                                class="bi bi-power fa-fw me-2"></i>Sign Out</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <!-- Dark mode options START -->
+                    <li>
+                        <div
+                            class="bg-light dark-mode-switch theme-icon-active d-flex align-items-center p-1 rounded mt-2">
+                            <button type="button" class="btn btn-sm mb-0" data-bs-theme-value="light">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-sun fa-fw mode-switch" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                                    <use href="#"></use>
+                                </svg> Light
+                            </button>
+                            <button type="button" class="btn btn-sm mb-0" data-bs-theme-value="dark">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-moon-stars fa-fw mode-switch"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                                    <path
+                                        d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+                                    <use href="#"></use>
+                                </svg> Dark
+                            </button>
+                            <button type="button" class="btn btn-sm mb-0 active" data-bs-theme-value="auto">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-circle-half fa-fw mode-switch"
+                                    viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+                                    <use href="#"></use>
+                                </svg> Auto
+                            </button>
+                        </div>
+                    </li>
+                    <!-- Dark mode options END-->
+                </ul>
+            </div>
+            <!-- Profile START -->
         </div>
-    </div>
-</div>
+    </nav>
+    <!-- Nav END -->
+</header>
+<!-- Header END -->
