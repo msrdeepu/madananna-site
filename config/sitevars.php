@@ -15,6 +15,10 @@
         'appname' => 'Inspireweb',
         'devname' => 'Sandeep',
         'devlink' => 'https://www.linkedin.com/in/mspreddy2021/',
+        "fblink" => "",
+        "instalink" => "",
+        "xlink" => "",
+        "linkedinlink" => "",
         
     ];
 
